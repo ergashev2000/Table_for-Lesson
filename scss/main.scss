@@ -1,0 +1,24 @@
+
+
+
+table, th,td{
+    border: 1px solid grey;
+}
+.table{
+    margin: 200px auto;
+    border-collapse: collapse;
+    th, td{
+        padding:15px 40px;
+        text-align: center;
+        font-weight: 400;
+        transition: all .2s;
+        &:hover{
+            background-color: #000;
+            color: #fff;
+        }
+
+    }
+    .row:nth-child(1){
+        padding: 15px;
+    }
+}

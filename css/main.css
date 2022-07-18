@@ -1,0 +1,21 @@
+table, th, td {
+  border: 1px solid grey;
+}
+
+.table {
+  margin: 200px auto;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  padding: 15px 40px;
+  text-align: center;
+  font-weight: 400;
+  transition: all 0.2s;
+}
+.table th:hover, .table td:hover {
+  background-color: #000;
+  color: #fff;
+}
+.table .row:nth-child(1) {
+  padding: 15px;
+}/*# sourceMappingURL=main.css.map */
